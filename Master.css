@@ -1,0 +1,74 @@
+*{
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+body{
+  background-image: url('background.jpg');
+  background-size: cover;
+}
+header,nav{
+  text-align: center;
+}
+main{
+  color: white;
+}
+.Contenitore{
+  width: 1500px;
+  background: rgba(0, 0, 0, 0.5);
+  margin: auto;
+  padding: 70px 5% 100px;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+.Titolo{
+  font-size: 50px;
+  color: #00dd00;
+}
+.Inputs{
+  background-color: #00DD00;
+  height: 50px;
+  line-height: 50px;
+}
+.Immagine{
+width: 400px;
+margin: auto;
+}
+.Immagine img{
+width: 100%;
+}
+.Titolo-monopattino{
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+.Locazione::before{
+  content: "\2192";
+}
+.percentuale{
+  height: 35px;
+  border-radius: 5px;
+}
+.percentuale.alta{
+  width: 800px;
+  background-color: green;
+}
+.percentuale.media{
+  width: 600px;
+  background-color: orange;
+}
+.percentuale.bassa{
+  width: 200px;
+  background-color: red;
+}
+.Monopattino{
+  margin: 20px 0 25px;
+}
+.Monopattino > div{
+  margin: 5px 0;
+}
+.Locazione , .Carica{
+  font-size: 20px;
+}
